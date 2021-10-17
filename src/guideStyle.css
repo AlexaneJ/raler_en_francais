@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;  
+    box-sizing: border-box;
+  }
+  
+  body {
+      font-family: 'Shadows Into Light', cursive;
+  
+      background-color: beige;
+  }
+  
+  .navbar {
+      display: flex;
+      align-items: center;
+      padding: 20px;
+  }
+  
+  nav {
+      flex: 1;
+      text-align: right;
+  }
+  
+  /* nav ul {
+      display: inline-block;
+  } */
+  
+  nav ul li {
+      list-style: none;
+      display: inline;
+      margin-right: 20px;
+  }
+  
+  .footer-col-2 {
+      display: flex;
+      align-items: center;
+      padding-top: 30px;
+      padding-bottom: 30px;
+      padding-left: 30px;
+  }
+  
+  .footer-col-2 img {
+      padding-right: 20px;
+  }
+  
+  a {
+      text-decoration: none;
+      color: #555;
+  }
+  
+  p{
+      color: rgb(29, 29, 29);
+      font-size: 25px;
+  }
+  
+  .container1 {
+      max-width: 1300px;
+      margin: auto;
+      padding-left: 25px;
+      padding-right: 25px;
+  }
+  
+  .header {
+      padding-bottom: 2.5rem; 
+  }
+  
+  .row {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      margin-top: 70px;
+  }
+  
+  .col-2 {
+      flex-basis: 50%;
+      min-width: 300px;
+  }
+  
+  .col-2 img {
+      max-width: 100%;
+      margin-left: 150px;
+      padding: 50px 0;
+  }
+  
+  .col-2 h1 {
+      font-size: 50px;
+      line-height: 60px;
+      margin: 25px 0;
+  }
+  
+  .btn-explore {
+      display: inline-block;
+      background: #ff523b;
+      color: #fff;
+      padding: 8px 30px;
+      margin: 30px 0;
+      border-radius: 30px;
+      transition: all 200ms ease;
+      box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+      cursor: pointer;
+  }
+  
+  .btn-explore:hover {
+          background: #ff5507;
+          color: white;
+          border: 1px solid #ff4107;
+  }
+  
+  /* .header {
+      background-image: linear-gradient(-20deg, #fc6076 0%, #ff9a44 100%);
+  } */
+  .footer-col-1 p strong a{
+      color: #ff2c07;
+  }
+  
+  .footer {
+      position: relative;
+      bottom: 0;
+      width: 100%;
+      height: 50px; 
+  }
+  
+  .footer-col-1 {
+      width: 100%;
+      background-color: rgb(255, 188, 188);
+  }
+  
+  .footer-col-1 h3 {
+      padding-left: 30px;
+  }
+  
+  .footer-col-1 p {
+      padding-left: 30px;
+  }
+  
+  
